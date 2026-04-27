@@ -102,3 +102,10 @@ h1 {
     margin: 60px auto 50px auto;
     font-size: 2em;
 }
+
+@media (max-width: 500px) {
+    .card {
+        width: 240px;
+        height: 340px;
+    }
+}
