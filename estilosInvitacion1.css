@@ -21,7 +21,7 @@ body {
     background: #fff;
     position: relative;
     transform-style: preserve-3d;
-    perspective: 1000px;
+    perspective: 1200px;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
     transition: transform 1s ease;
     border: 8px solid #ef5050;
@@ -35,7 +35,7 @@ body {
 }
 
 .card:hover {
-    transform: translateX(40%);
+    transform: translateX(180px) rotateZ(-1deg);
 
 }
 
